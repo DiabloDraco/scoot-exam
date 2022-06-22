@@ -1255,4 +1255,217 @@ a {
     margin-top: -0;
   }
 }
+
+.riding__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 155px;
+}
+
+.riding__wrapper {
+  max-width: 445px;
+  width: 100%;
+  margin-right: 220px;
+}
+
+.riding__heading {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin-bottom: 24px;
+}
+
+.riding__text {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 40px;
+}
+
+.riding__img-wrapper {
+  position: relative;
+}
+
+.riding__img-wrapper::after {
+  content: "";
+  display: inline-block;
+  background-image: url("./../../images/riding-arrow.svg");
+  width: 740px;
+  height: 150px;
+  position: absolute;
+  right: calc(0% - 165px);
+  top: 300px;
+}
+
+.riding__img {
+  border-radius: 50%;
+  -webkit-box-shadow: 500px 0 0 #E5ECF4;
+          box-shadow: 500px 0 0 #E5ECF4;
+}
+
+@media only screen and (max-width: 950px) {
+  /* TABLET */
+  .riding__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    margin-bottom: 128px;
+  }
+  .riding__wrapper {
+    max-width: 573px;
+    width: 100%;
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .riding__heading {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 40px;
+  }
+  .riding__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+    margin-bottom: 40px;
+  }
+  .riding__img-wrapper {
+    position: relative;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .riding__img-wrapper::after {
+    content: "";
+    display: inline-block;
+    background-image: url("./../../images/riding-arrow.svg");
+    width: 740px;
+    height: 150px;
+    position: absolute;
+    right: calc(-37%);
+    top: 59%;
+  }
+  .riding__img {
+    border-radius: 50%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-bottom: 56px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* MOBILE */
+  .riding__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    margin-bottom: 120px;
+  }
+  .riding__wrapper {
+    max-width: 311px;
+    width: 100%;
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .riding__heading {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 32px;
+  }
+  .riding__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+    margin-bottom: 40px;
+  }
+  .riding__img-wrapper::after {
+    content: "";
+    display: inline-block;
+    background-image: url("./../../images/riding-arrow.svg");
+    width: 740px;
+    height: 150px;
+    position: absolute;
+    right: calc(-139%);
+    top: 45%;
+  }
+  .riding__img {
+    width: 311px;
+    height: 311px;
+    border-radius: 50%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-bottom: 56px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
