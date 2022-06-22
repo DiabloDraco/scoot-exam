@@ -62,6 +62,9 @@
         font-size: 15px;
         line-height: 25px; 
         color: #939CAA;
+        &:hover {
+            color: #FCB72B;
+        }
     }
 
     .button {
