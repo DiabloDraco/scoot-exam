@@ -1,5 +1,5 @@
 .header {
-    background-color: #fff;
+    background-color: $white;
     position: fixed;
     left: 0;
     right: 0;
@@ -17,7 +17,7 @@
     }
 
     &__list-btn {
-        display: none;
+        @include none;
     }
 
     &__burger-img {
@@ -74,12 +74,12 @@
         font-size: 15px;
         line-height: 25px;
         text-align: center;
-        color: #FFFFFF;
+        color: $white;
         padding: 14px 39px;
         background-color: $yellow;
         &:hover {
             color: $yellow;
-            background-color: #fff;
+            background-color: $white;
             box-shadow: 0 0 0 3px $yellow;
         }
     }
@@ -92,7 +92,7 @@
     /* TABLET */
 
     .header {
-        background-color: #fff;
+        background-color: $white;
         &__container {
             display: flex;
             align-items: center;
@@ -160,12 +160,12 @@
             font-size: 15px;
             line-height: 25px;
             text-align: center;
-            color: #FFFFFF;
+            color: $white;
             padding: 14px 39px;
             background-color: $yellow;
             &:hover {
                 color: $yellow;
-                background-color: #fff;
+                background-color: $white;
                 box-shadow: 0 0 0 3px $yellow;
             }
         }
@@ -180,7 +180,7 @@
     /* MOBILE */
 
     .header {
-        background-color: #fff;
+        background-color: $white;
         &__container {
             display: flex;
             align-items: center;
@@ -276,12 +276,12 @@
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    color: #FFFFFF;
+    color: $white;
     padding: 14px 39px;
     background-color: $yellow;
     &:hover {
         color: $yellow;
-        background-color: #fff;
+        background-color: $white;
         box-shadow: 0 0 0 3px $yellow;
     }
 }   
