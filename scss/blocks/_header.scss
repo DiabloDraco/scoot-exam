@@ -1,11 +1,15 @@
 .header {
     background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
     &__container {
         display: flex;
         align-items: center;
         padding-top: 22px;
         padding-bottom: 21px;
-        position: sticky;
     }
 
     &__m-container {
@@ -174,7 +178,6 @@
 
     .header {
         background-color: #fff;
-        position: relative;
         &__container {
             display: flex;
             align-items: center;
@@ -219,15 +222,15 @@
         }
     
         &__right {
-            display: flex;
+            display: none;
             flex-direction: column;
             justify-content: space-between;
+            align-items: start;
             position: absolute;
             max-width: 256px;
             width: 100%;
             top: 100%;
             left: 0;
-            align-items: center;
             background-color: #333A44;
             padding-top: 64px;
             padding-left: 39px;
@@ -242,6 +245,8 @@
             flex-direction: column;
             gap: 24px;
             margin-bottom: 339px;
+            justify-content: start;
+            text-align: left;
         }
     
         &__item {
@@ -256,25 +261,24 @@
             color: #E5ECF4;
         }
     
-        .button {
-            font-family: 'Space Mono';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-            padding: 14px 39px;
-            background-color: #FCB72B;
-            &:hover {
-                color: #FCB72B;
-                background-color: #fff;
-                box-shadow: 0 0 0 3px #FCB72B;
-            }
-        }
-    
         &__button {
         }
     }
     
 }
+.button {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 39px;
+    background-color: #FCB72B;
+    &:hover {
+        color: #FCB72B;
+        background-color: #fff;
+        box-shadow: 0 0 0 3px #FCB72B;
+    }
+}   
