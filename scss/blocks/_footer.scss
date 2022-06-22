@@ -123,6 +123,9 @@
         &:hover {
             color: $yellow;
         }
+        &:active {
+            opacity: 0.6;
+        }
     }
     
     &__soc-container {
