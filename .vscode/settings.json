@@ -1,12 +1,13 @@
 {
     "liveSassCompile.settings.formats": [
         {
-            "format": "compressed", // expanded || compressed
+            "format": "expanded", // expanded || compressed
             "extensionName": ".css",
             "savePath": "/css"
         }
     ],
 
     "ecsstractor_port.bem_nesting": true,
-    "ecsstractor_port.add_comment": false
+    "ecsstractor_port.add_comment": false,
+    "liveServer.settings.port": 5501
 }

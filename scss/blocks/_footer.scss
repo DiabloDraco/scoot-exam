@@ -277,6 +277,9 @@
             &:hover {
                 color: $yellow;
             }
+            &:active {
+                opacity: 0.6;
+            }
         }
         
         &__soc-container {
@@ -301,7 +304,7 @@
     
 }
 
-@media only screen and (max-width: 475px) { 
+@media only screen and (max-width: 600px) { 
     /* MOBILE */
 
     .footer {

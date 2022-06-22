@@ -65,22 +65,8 @@
         &:hover {
             color: $yellow;
         }
-    }
-
-    .button {
-        font-family: 'Space Mono';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 25px;
-        text-align: center;
-        color: $white;
-        padding: 14px 39px;
-        background-color: $yellow;
-        &:hover {
-            color: $yellow;
-            background-color: $white;
-            box-shadow: 0 0 0 3px $yellow;
+        &:active {
+            opacity: 0.6;
         }
     }
 
@@ -151,23 +137,6 @@
             font-size: 15px;
             line-height: 25px;
             color: $DimGrey;
-        }
-    
-        .button {
-            font-family: 'Space Mono';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: $white;
-            padding: 14px 39px;
-            background-color: $yellow;
-            &:hover {
-                color: $yellow;
-                background-color: $white;
-                box-shadow: 0 0 0 3px $yellow;
-            }
         }
     
         &__button {
@@ -281,7 +250,8 @@
     background-color: $yellow;
     &:hover {
         color: $yellow;
-        background-color: $white;
+        background-color: transparent;
         box-shadow: 0 0 0 3px $yellow;
+        
     }
 }   
