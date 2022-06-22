@@ -145,7 +145,7 @@
     
 }
 
-@media only screen and (max-width: 668px) { 
+@media only screen and (max-width: 660px) { 
     /* MOBILE */
     
     .header {
@@ -222,7 +222,7 @@
             padding-bottom: 300px;
             transition: all 1s ease;
             transform: translateX(-200%);
-            box-shadow: 170px 0 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 256px 0 0 0 rgba(0, 0, 0, 0.75);
         }
         
         &__navbar {
