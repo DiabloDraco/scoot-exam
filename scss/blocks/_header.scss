@@ -11,31 +11,31 @@
         padding-top: 22px;
         padding-bottom: 21px;
     }
-
+    
     &__m-container {
         display: flex;
     }
-
+    
     &__list-btn {
         @include none;
     }
-
+    
     &__burger-img {
     }
-
+    
     &__cross-img {
     }
-
+    
     &__logo-link {
         margin-right: 58.18px;
     }
-
+    
     &__logo-img {
         width: 107.82px;
         height: 28.56px;
         object-fit: contain;    
     }
-
+    
     &__right {
         display: flex;
         max-width: 940px;
@@ -43,18 +43,18 @@
         justify-content: space-between;
         align-items: center;
     }
-
+    
     &__navbar {
     }
-
+    
     &__list {
         display: flex;
         gap: 32px;
     }
-
+    
     &__item {
     }
-
+    
     &__item-link {
         font-family: 'Space Mono';
         font-style: normal;
@@ -69,14 +69,14 @@
             opacity: 0.6;
         }
     }
-
+    
     &__button {
     }
 }
 
 @media only screen and (max-width: 800px) { 
     /* TABLET */
-
+    
     .header {
         background-color: $white;
         &__container {
@@ -86,31 +86,31 @@
             padding-bottom: 21px;
             position: sticky;
         }
-    
+        
         &__m-container {
             display: flex;
         }
-    
+        
         &__list-btn {
             display: none;
         }
-    
+        
         &__burger-img {
         }
-    
+        
         &__cross-img {
         }
-    
+        
         &__logo-link {
             margin-right: 58.18px;
         }
-    
+        
         &__logo-img {
             width: 107.82px;
             height: 28.56px;
             object-fit: contain;    
         }
-    
+        
         &__right {
             display: flex;
             max-width: 940px;
@@ -118,18 +118,18 @@
             justify-content: space-between;
             align-items: center;
         }
-    
+        
         &__navbar {
         }
-    
+        
         &__list {
             display: flex;
             gap: 32px;
         }
-    
+        
         &__item {
         }
-    
+        
         &__item-link {
             font-family: 'Space Mono';
             font-style: normal;
@@ -138,7 +138,7 @@
             line-height: 25px;
             color: $DimGrey;
         }
-    
+        
         &__button {
         }
     }
@@ -147,7 +147,7 @@
 
 @media only screen and (max-width: 668px) { 
     /* MOBILE */
-
+    
     .header {
         background-color: $white;
         &__container {
@@ -162,7 +162,8 @@
         
         &__active {
             .header__right {
-                display: flex;
+                transform: translateX(0);
+                transition: all 1s ease;
             }
             .header__burger-img {
                 display: none;
@@ -171,12 +172,12 @@
                 display: inline-block;
             }
         }
-
+        
         &__m-container {
             display: flex;
             align-items: center;
         }
-    
+        
         &__list-btn {
             display: flex;
             border: none;
@@ -186,27 +187,27 @@
             top: 30px;
             left: 32px;
         }
-    
+        
         &__burger-img {
         }
-    
+        
         &__cross-img {
             display: none;
         }
-    
+        
         &__logo-link {
             margin-right: 0px;
             display: flex;
         }
-    
+        
         &__logo-img {
             width: 107.82px;
             height: 28.56px;
             object-fit: contain;    
         }
-    
+        
         &__right {
-            display: none;
+            display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: start;
@@ -218,12 +219,14 @@
             background-color: #333A44;
             padding-top: 64px;
             padding-left: 39px;
-            padding-bottom: 144px
+            padding-bottom: 144px;
+            transition: all 1s ease;
+            transform: translateX(-100%);
         }
-    
+        
         &__navbar {
         }
-    
+        
         &__list {
             display: flex;
             flex-direction: column;
@@ -232,10 +235,10 @@
             justify-content: start;
             text-align: left;
         }
-    
+        
         &__item {
         }
-    
+        
         &__item-link {
             font-family: 'Space Mono';
             font-style: normal;
@@ -244,7 +247,7 @@
             line-height: 25px;
             color: $LightGrey;
         }
-    
+        
         &__button {
         }
     }
