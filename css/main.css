@@ -704,6 +704,10 @@ a {
           box-shadow: 0 0 0 3px #FCB72B;
 }
 
+.button:active {
+  opacity: 0.6;
+}
+
 .hero {
   padding-top: 96px;
   max-width: 1440px;
@@ -769,8 +773,8 @@ a {
   height: 137.44px;
   position: absolute;
   top: 100%;
-  -webkit-transform: translateY(-47%);
-          transform: translateY(-47%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   right: calc(0% - 500px);
 }
 
@@ -2179,7 +2183,7 @@ a {
     background-position: bottom;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -29%;
     width: 1153px;
     height: 347px;
   }

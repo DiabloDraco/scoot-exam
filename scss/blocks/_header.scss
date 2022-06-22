@@ -252,6 +252,8 @@
         color: $yellow;
         background-color: transparent;
         box-shadow: 0 0 0 3px $yellow;
-        
+    }
+    &:active {
+        opacity: 0.6;
     }
 }   
