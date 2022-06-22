@@ -221,7 +221,6 @@
         &__right {
             display: flex;
             flex-direction: column;
-            height: 100vh;
             justify-content: space-between;
             position: absolute;
             max-width: 256px;
@@ -232,7 +231,7 @@
             background-color: #333A44;
             padding-top: 64px;
             padding-left: 39px;
-            padding-bottom: 50px;
+            padding-bottom: 24px;
         }
     
         &__navbar {
@@ -242,6 +241,7 @@
             display: flex;
             flex-direction: column;
             gap: 24px;
+            margin-bottom: 289px;
         }
     
         &__item {

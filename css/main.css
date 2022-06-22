@@ -644,7 +644,6 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100vh;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -659,7 +658,7 @@ a {
     background-color: #333A44;
     padding-top: 64px;
     padding-left: 39px;
-    padding-bottom: 50px;
+    padding-bottom: 24px;
   }
   .header__list {
     display: -webkit-box;
@@ -670,6 +669,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 24px;
+    margin-bottom: 289px;
   }
   .header__item-link {
     font-family: 'Space Mono';
