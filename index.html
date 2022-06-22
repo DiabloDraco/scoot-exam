@@ -104,8 +104,27 @@
 					</p>
 					<a class="button riding__button" href="#">Learn More</a>
 				</div>
-				<div class="riding__img-wrapper">
-					<img class="riding__img" src="./images/opacha.png" alt="opacha" width="445" height="445">
+				<div class="riding__img-wrapper"> 
+					<!-- riding__img -->
+					<picture>
+						<!-- avif -->
+					
+						<source
+						type="image/avif"
+						srcset="./images/opacha.avif 1x, ./images/opacha@2x.avif 2x"
+						>
+					
+					
+						<!-- WebP -->
+					
+						<source
+						type="image/webp"
+						srcset="./images/opacha.webp 1x, ./images/opacha@2x.webp 2x"
+						>
+					
+						<!-- PNG -->
+						<img class="riding__img" src="./images/opacha.png" alt="opacha" width="445" height="445" srcset="./images/opacha.png 1x , ./images/opacha@2x.png">
+					</picture>
 				</div>
 			</div>
 		</section>

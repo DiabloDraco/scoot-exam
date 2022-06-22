@@ -1981,7 +1981,7 @@ a {
 }
 
 .footer__soc-icon:hover {
-  color: #FFFFFF;
+  color: #E5ECF4;
 }
 
 @media only screen and (max-width: 765px) {
@@ -2134,7 +2134,7 @@ a {
     color: #FCB72B;
   }
   .footer__soc-icon:hover {
-    color: #FFFFFF;
+    color: #E5ECF4;
   }
 }
 
@@ -2305,7 +2305,7 @@ a {
     color: #FCB72B;
   }
   .footer__soc-icon:hover {
-    color: #FFFFFF;
+    color: #E5ECF4;
   }
 }
 /*# sourceMappingURL=main.css.map */

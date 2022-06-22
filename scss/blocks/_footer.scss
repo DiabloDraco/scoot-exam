@@ -4,7 +4,7 @@
     }
     
     &__top-wrapper {
-        background-color: #495567;
+        background-color: $DarkNavy;
     }
     
     &__top {
@@ -48,7 +48,7 @@
         display: flex;
         align-items: center;
         padding: 8px 16px 9px 16px;
-        background: #E5ECF4;
+        background: $LightGrey;
         border-radius: 4px;
     }
     
@@ -68,7 +68,7 @@
         font-size: 10px;
         line-height: 15px;
         letter-spacing: -0.446429px;
-        color: #495567;
+        color: $DarkNavy;
     }
     
     &__media-item-head {
@@ -78,7 +78,7 @@
         font-size: 20px;
         line-height: 24px;
         letter-spacing: -0.892857px;
-        color: #495567;
+        color: $DarkNavy;
     }
     
     &__bottom-wrapper {
@@ -119,9 +119,9 @@
         font-weight: 700;
         font-size: 15px;
         line-height: 25px;
-        color: #939CAA;
+        color: $DimGrey;
         &:hover {
-            color: #FCB72B;
+            color: $yellow;
         }
     }
     
@@ -138,9 +138,9 @@
     }
     
     &__soc-icon {
-        color: #FCB72B;
+        color: $yellow;
         &:hover {
-            color: #FFFFFF;
+            color: $LightGrey;
         }
     }
 }
@@ -155,7 +155,7 @@
         }
         
         &__top-wrapper {
-            background-color: #495567;
+            background-color: $DarkNavy;
         }
         
         &__top {
@@ -202,7 +202,7 @@
             display: flex;
             align-items: center;
             padding: 5.71px 11.43px 6.43px 11.43px;
-            background: #E5ECF4;
+            background: $LightGrey;
             border-radius: 4px;
         }
         
@@ -222,7 +222,7 @@
             font-size: 10px;
             line-height: 15px;
             letter-spacing: -0.446429px;
-            color: #495567;
+            color: $DarkNavy;
         }
         
         &__media-item-head {
@@ -232,7 +232,7 @@
             font-size: 20px;
             line-height: 24px;
             letter-spacing: -0.892857px;
-            color: #495567;
+            color: $DarkNavy;
         }
         
         &__bottom-wrapper {
@@ -273,9 +273,9 @@
             font-weight: 700;
             font-size: 15px;
             line-height: 25px;
-            color: #939CAA;
+            color: $DimGrey;
             &:hover {
-                color: #FCB72B;
+                color: $yellow;
             }
         }
         
@@ -292,9 +292,9 @@
         }
         
         &__soc-icon {
-            color: #FCB72B;
+            color: $yellow;
             &:hover {
-                color: #FFFFFF;
+                color: $LightGrey;
             }
         }
     }
@@ -310,7 +310,7 @@
         }
         
         &__top-wrapper {
-            background-color: #495567;
+            background-color: $DarkNavy;
         }
         
         &__top {
@@ -357,7 +357,7 @@
             display: flex;
             align-items: center;
             padding: 5.71px 11.43px 6.43px 11.43px;
-            background: #E5ECF4;
+            background: $LightGrey;
             border-radius: 4px;
         }
         
@@ -377,7 +377,7 @@
             font-size: 10px;
             line-height: 15px;
             letter-spacing: -0.446429px;
-            color: #495567;
+            color: $DarkNavy;
         }
         
         &__media-item-head {
@@ -387,7 +387,7 @@
             font-size: 20px;
             line-height: 24px;
             letter-spacing: -0.892857px;
-            color: #495567;
+            color: $DarkNavy;
         }
         
         &__bottom-wrapper {
@@ -434,9 +434,9 @@
             font-weight: 700;
             font-size: 15px;
             line-height: 25px;
-            color: #939CAA;
+            color: $DimGrey;
             &:hover {
-                color: #FCB72B;
+                color: $yellow;
             }
         }
         
@@ -453,9 +453,9 @@
         }
         
         &__soc-icon {
-            color: #FCB72B;
+            color: $yellow;
             &:hover {
-                color: #FFFFFF;
+                color: $LightGrey;
             }
         }
     }

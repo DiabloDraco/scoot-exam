@@ -35,7 +35,7 @@
             }
             .dheroes__img {
                 border-radius: 50%;
-                box-shadow: 500px 0 0 #E5ECF4;
+                box-shadow: 500px 0 0 $LightGrey;
             }
         } 
     }
@@ -57,7 +57,7 @@
 
     &__img {
         border-radius: 50%;
-        box-shadow: -500px 0 0 #E5ECF4;
+        box-shadow: -500px 0 0 $LightGrey;
     }
 
     &__text-wrapper {
@@ -71,7 +71,7 @@
         font-size: 48px;
         line-height: 48px;
         letter-spacing: -2.14286px;
-        color: #495567;      
+        color: $DarkNavy;      
         margin-bottom: 24px;  
     }
 
@@ -131,7 +131,7 @@
                 }
                 .dheroes__img {
                     border-radius: 50%;
-                    box-shadow: 500px 0 0 #E5ECF4;
+                    box-shadow: 500px 0 0 $LightGrey;
                 }
             } 
         }
@@ -154,7 +154,7 @@
     
         &__img {
             border-radius: 50%;
-            box-shadow: -500px 0 0 #E5ECF4;
+            box-shadow: -500px 0 0 $LightGrey;
         }
     
         &__text-wrapper {
@@ -173,7 +173,7 @@
             line-height: 48px;
             text-align: center;
             letter-spacing: -2.14286px;
-            color: #495567;
+            color: $DarkNavy;
             margin-bottom: 40px;  
         }
     
@@ -234,7 +234,7 @@
                 }
                 .dheroes__img {
                     border-radius: 50%;
-                    box-shadow: 500px 0 0 #E5ECF4;
+                    box-shadow: 500px 0 0 $LightGrey;
                 }
             } 
         }
@@ -257,7 +257,7 @@
     
         &__img {
             border-radius: 50%;
-            box-shadow: -500px 0 0 #E5ECF4;
+            box-shadow: -500px 0 0 $LightGrey;
             width: 311px;
             height: 311px;
             object-fit: contain;
@@ -279,7 +279,7 @@
             line-height: 48px;
             text-align: center;
             letter-spacing: -2.14286px;
-            color: #495567;
+            color: $DarkNavy;
             margin-bottom: 40px;  
         }
     
