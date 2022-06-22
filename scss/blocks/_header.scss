@@ -221,7 +221,8 @@
             padding-left: 39px;
             padding-bottom: 300px;
             transition: all 1s ease;
-            transform: translateX(-100%);
+            transform: translateX(-200%);
+            box-shadow: 170px 0 0 rgba(0, 0, 0, 0.5);
         }
         
         &__navbar {
